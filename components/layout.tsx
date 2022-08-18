@@ -23,7 +23,7 @@ function Layout({ title, children }: LayoutProps) {
   };
 
   useEffect(() => {
-    toggleDarkmode(localStorage.getItem("theme") === "dark");
+    toggleDarkmode(true);
   }, []);
 
   return (
